@@ -13,16 +13,16 @@ A collection of Computer Science I coursework covering Java programming, object-
 | Holiday bonus calculations | `HolidayBonus.java`, `TwoDimRaggedArrayUtility.java` |
 | Beverage shop | `BevShop.java`, `Order.java`, `Beverage.java`, and beverage subclasses |
 
-Source files are inside each assignment's `src/` folder. The repository also includes labs on data elements, GUIs, JUnit, two-dimensional arrays, memory mapping, and classes.
+Source files are inside each project's `src/` folder. The repository also includes labs on data elements, GUIs, JUnit, two-dimensional arrays, memory mapping, and classes.
 
 ## Explore and run
 
-Open one assignment at a time in a Java IDE and configure its `src/` folder as a source directory. Some exercises include GUI code or JUnit tests and need the corresponding dependencies. Do not compile every assignment together: separate exercises may reuse class names.
+Open one project at a time in a Java IDE and configure its `src/` folder as a source directory. Some exercises include GUI code or JUnit tests and need the corresponding dependencies. Do not compile every project together: separate exercises may reuse class names.
 
 For the standalone ESP game, run from the repository root with a JDK installed:
 
 ```bash
-cd "Assignment 1 - ESP Game/src"
+cd "01-esp-game/src"
 javac ESPGame.java
 java ESPGame
 ```
