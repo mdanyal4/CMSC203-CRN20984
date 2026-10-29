@@ -1,25 +1,28 @@
-# Java Programming Fundamentals — CMSC203
+# Java Object-Oriented Programming Projects
 
-A collection of Computer Science I coursework covering Java programming, object-oriented design, arrays, graphical interfaces, and unit testing. Each assignment is a separate exercise rather than part of one application.
+A coursework archive of Java projects covering object-oriented design, arrays, file processing, graphical interfaces, and unit testing. Each project is independent and should be opened and run separately.
 
-## Assignments
+## Project highlights
 
-| Project | Source files to explore |
-| --- | --- |
-| ESP guessing game | `ESPGame.java` |
-| Patient and procedure records | `Patient.java`, `Procedure.java`, `PatientDriverApp.java` |
-| Encryption and decryption exercise | `CryptoManager.java` |
-| Property management | `ManagementCompany.java`, `Property.java`, `Plot.java` |
-| Holiday bonus calculations | `HolidayBonus.java`, `TwoDimRaggedArrayUtility.java` |
-| Beverage shop | `BevShop.java`, `Order.java`, `Beverage.java`, and beverage subclasses |
+| Project | Focus | Directory |
+| --- | --- | --- |
+| ESP guessing game | Console input, loops, and conditionals | [`01-esp-game`](01-esp-game/) |
+| Patient and procedure records | Classes, encapsulation, and object composition | [`02-patient-procedure-records`](02-patient-procedure-records/) |
+| Encryption and decryption | String processing and GUI integration | [`03-encryption-decryption`](03-encryption-decryption/) |
+| Property management | Object modeling, arrays, and validation | [`04-property-management`](04-property-management/) |
+| Holiday bonus calculator | Two-dimensional arrays and file input | [`05-holiday-bonus`](05-holiday-bonus/) |
+| Beverage shop | Inheritance, polymorphism, and order management | [`06-beverage-shop`](06-beverage-shop/) |
 
-Source files are inside each project's `src/` folder. The repository also includes labs on data elements, GUIs, JUnit, two-dimensional arrays, memory mapping, and classes.
+Supporting labs cover GUI development, JUnit, memory mapping, two-dimensional arrays, and foundational Java classes.
 
-## Explore and run
+## Run locally
 
-Open one project at a time in a Java IDE and configure its `src/` folder as a source directory. Some exercises include GUI code or JUnit tests and need the corresponding dependencies. Do not compile every project together: separate exercises may reuse class names.
+1. Install a JDK and open one project in a Java IDE.
+2. Mark that project's `src/` directory as a source root.
+3. Add JUnit or JavaFX only when that project imports it.
+4. Build and run the relevant driver or test class.
 
-For the standalone ESP game, run from the repository root with a JDK installed:
+For the standalone ESP game:
 
 ```bash
 cd "01-esp-game/src"
@@ -27,6 +30,6 @@ javac ESPGame.java
 java ESPGame
 ```
 
-## Repository context
+## Coursework note
 
-This is a coursework archive, not a production application. Assignment documents, starter interfaces, GUI scaffolding, and test files may include course-provided material; their presence does not imply that every file was independently authored. Preserve existing attribution and follow the course's academic-integrity rules when using the material.
+This repository preserves completed coursework. Some assignment documents, starter interfaces, GUI scaffolding, and tests may be course-provided; their presence does not mean every file was independently authored. Use the material in accordance with academic-integrity requirements.
